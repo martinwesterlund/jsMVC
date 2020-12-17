@@ -1,6 +1,14 @@
+import * as model from "../models/courses.js";
 
-import CourseModalView from '../views/course-modal-view.js';
+import courseModalView from "../views/course-modal-view.js";
 
 export const closeModal = function() {
-  CourseModalView.closeModal();
+  courseModalView.closeModal();
 }
+
+
+
+
+
+
+

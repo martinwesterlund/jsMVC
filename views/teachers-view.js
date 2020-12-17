@@ -15,7 +15,6 @@ class TeachersView {
   }
 
   renderTeachers(teachers) {
-    console.log(teachers);
     for (let i = 0; i < teachers.length; i++) {
       let teacherElement = document.createElement("div");
       let teacherId = document.createElement("h4");

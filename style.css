@@ -50,13 +50,24 @@
 }
 
 #close, #tclose{
-    margin: 5px 0 0 0;
+    position: absolute;
+    
+    padding: 5px;
+    top: 5px;
+    right: 5px;
 }
 
 #modal-duration, #tmodal-areas{
     padding: 5px 0;
 }
 
+#signup-form{
+    margin-top: 50px;
+}
+
+#nameInput{
+    margin-top: 10px;
+}
 
 
 .hidden{
